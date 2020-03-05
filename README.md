@@ -1,5 +1,4 @@
-# Shadow Debug issue
-A repo to test a three.js shadow rendering configuration.
+# THREE DRUM TEST THING
 
 ## Install
 

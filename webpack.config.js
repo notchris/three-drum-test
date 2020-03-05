@@ -52,8 +52,8 @@ const config = {
                 },
             },
             {
-                test: /\.tmx$/,
-                use: 'url-loader'
+                test: /\.svg$/,
+                use: 'raw-loader'
             },
             {
                 test: /\.js$/,

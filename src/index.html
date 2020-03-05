@@ -4,11 +4,26 @@
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width,initial-scale=1.0">
-     <title>Battle WebGL</title>
+     <title>THREE Quad View</title>
  </head>
  <body>
     <div id="app">
-        <canvas id="render"></canvas>
+        <div id="info">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Active Pad:</td>
+                        <td><span id="activePad">None</span></td>
+                    </tr>
+                    <tr>
+                        <td>Active Pad DFC:</td>
+                        <td><span id="activeDistance"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="render"></div>
+        <div id="map"></div>
     </div>
  </body>
  </html>

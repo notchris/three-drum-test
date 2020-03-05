@@ -1,7 +1,7 @@
 {
-    "name": "battle",
+    "name": "three-drum",
     "version": "1.0.4",
-    "description": "webgl battle mechanics",
+    "description": "...",
     "author": "notchris",
     "license": "MIT",
     "repository": {},
@@ -16,14 +16,8 @@
     "homepage": "",
     "dependencies": {
         "@babel/polyfill": "^7.2.5",
-        "camera-controls": "^1.18.2",
         "orbit-controls-es6": "^2.0.1",
-        "phaser": "^3.20.1",
-        "three": "^0.108.0",
-        "tmx-loader": "^4.3.0",
-        "tmx-parser": "^1.5.0",
-        "tmx-tiledmap": "^1.1.7",
-        "xml2js": "^0.4.22"
+        "three": "^0.114.0"
     },
     "devDependencies": {
         "@babel/cli": "^7.2.3",
